@@ -20,7 +20,7 @@ services:
 
   greenlight-v3:
     entrypoint: [bin/start]
-    image: bigbluebutton/greenlight:v3
+    image: meetipy/master:v3
     container_name: meetipy-v3
     restart: unless-stopped
     env_file: .env
