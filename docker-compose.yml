@@ -9,7 +9,7 @@ services:
       - ./data/postgres/14/database_data:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=
+      - POSTGRES_PASSWORD=meetipy
 
   redis:
     image: redis:6.2-alpine3.17
