@@ -32,6 +32,7 @@ services:
       - ./data/greenlight-v3/storage:/usr/src/app/storage
       - ./app/assets/locales/en.json:/usr/src/app/app/assets/locales/en.json
       - ./app/javascript/components/home/HomePage.jsx:/usr/src/app/app/javascript/components/home/HomePage.jsx
+      - ./app/assets/images/bbb-logo.png:/usr/src/app/app/assets/images/bbb-logo.png
     depends_on:
       - postgres
       - redis
