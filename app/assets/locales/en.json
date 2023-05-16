@@ -438,7 +438,7 @@
   "account_activation_page": {
     "title": "Account Activation",
     "account_unverified": "Your account has not been verified yet.",
-    "message": "In order to use Greenlight, please verify your account by following the instructions in the activation email that has been sent to you.",
+    "message": "In order to use Meetipy, please verify your account by following the instructions in the activation email that has been sent to you.",
     "resend_activation_link": "If you haven't received an activation email or if you are having a problem using it, click on the button below to request a new activation email.",
     "resend_btn_lbl": "Resend Verification"
   },
